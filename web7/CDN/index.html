@@ -8,16 +8,54 @@
     <link rel="stylesheet" href="style.css"
   </head>
   <body>
+<!-- 3 columnas idénticas usando col -->
+    <div class="container border border-success border-1 text-center my-5">
+    <div class="row">
+      <div class="col border border-success">col</div>
+      <div class="col border border-primary">col</div>
+      <div class="col border border-danger">col</div>
+    </div>
+    </div>
+<!-- 3 columnas idénticas usando col-4 -->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-4 border border-primary">col-4</div>
+        <div class="col-4 border border-secondary">col-4</div>
+        <div class="col-4 border border-danger">col-4</div>
+      </div>
+    </div>
+    <!-- 2 columnas idénticas y una desigual -->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-2 border border-primary">col-2</div>
+        <div class="col-8 border border-secondary">col-8</div>
+        <div class="col-2 border border-danger">col-2</div>
+      </div>
+    </div>
+
+    <!-- 2 columnas idénticas y una desigual con breakpoint -->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md-2 border border-primary">col-2</div>
+        <div class="col-md-8 border border-secondary">col-8</div>
+        <div class="col-md-2 border border-danger">col-2</div>
+      </div>
+    </div>
+
+    <!-- 2 columnas idénticas y una desigual con 2 breakpoints -->
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md-2 col-sm-4 border border-primary">col-2 sm-4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam doloribus eius totam ipsam id, natus quae quod deserunt necessitatibus iste accusantium quam velit voluptas neque, provident quis iure. Odit, similique.</div>
+        <div class="col-md-8 col-sm-8 border border-secondary">col-8 sm-8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae ipsam deleniti neque doloremque fuga reiciendis, delectus debitis incidunt rerum veniam eius, saepe suscipit dolorem aliquam odit cupiditate recusandae quia?
+        Eaque corporis ullam ab, architecto libero excepturi blanditiis impedit voluptatem consequuntur tempore porro id eum exercitationem! Harum magnam neque quidem autem aut minima dignissimos pariatur adipisci aliquid repellendus, numquam officiis!
+        Neque, commodi perferendis esse sunt, voluptas tempora voluptatem omnis odio iure iusto earum fugiat deserunt delectus consectetur vero sit sapiente laborum dolorum ea reprehenderit harum distinctio aperiam quisquam maxime. Repellat.</div>
+        <div class="col-md-2 col-sm-12 border border-danger">col-2 sm-12 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, officia. In soluta quam saepe sed cum totam reiciendis consequatur magnam quas commodi delectus eos nemo, eveniet corporis laboriosam molestias aspernatur.
+        Obcaecati incidunt vel magni nam nobis ducimus labore delectus accusamus atque. Ipsa necessitatibus labore vel perspiciatis totam, ut deserunt laboriosam unde nesciunt voluptas asperiores aut earum quasi nisi odit exercitationem?</div>
+      </div>
+    </div>
+
     
-    <div class="container border border-success border-5 rounded-3">
-    <h1>class container</h1>
-    </div>
-    <div class="container-md border border-primary border-5 rounded-3">
-    <h1>class container-md</h1>
-    </div>
-    <div class="container-fluid border border-danger border-5 rounded-3">
-    <h1>class container-fluid</h1>
-    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
